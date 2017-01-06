@@ -7,7 +7,7 @@ module.exports = function(grunt) {
             modules: {
                 expand: true,
                 cwd: 'app/',
-                src: ['*.js', 'modules/**/**/*.js'],
+                src: ['*.js', 'modules/**/*.js'],
                 dest: 'dist/'
             }
         },
@@ -17,7 +17,7 @@ module.exports = function(grunt) {
             },
             build: {
                 files: {
-                    'app/static/css/main.css': 'app/modules/**/styles/*.less'
+                    'app/assets/css/main.css': 'app/modules/**/*.less'
                 }
             }
         },        

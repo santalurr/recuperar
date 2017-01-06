@@ -1,0 +1,22 @@
+{
+  "globalstrict": true,
+  "globals": {
+    "ApplicationConfiguration": false,
+    "afterEach": false,
+    "angular": false,
+    "beforeEach": false,
+    "Buffer": false,
+    "config": false,
+    "console": true,
+    "describe": false,
+    "expect": false,
+    "inject": false,
+    "it": false,
+    "localStorage": false,
+    "module": false,
+    "moment": true,
+    "require": false,
+    "FormData": false
+  },
+  "shadow": true
+}
